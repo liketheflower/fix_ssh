@@ -39,6 +39,8 @@ solution: detach the screen and reattach then the problem is solved.
 
 reconnect
 
-echo $DISPLAY  
+export DISPLAY=:localhost:11.0
+
+echo $DISPLAY
 localhost:11.0
 
