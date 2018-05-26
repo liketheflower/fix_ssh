@@ -33,3 +33,12 @@ error 3
 window = Tk.Tk() File "/usr/lib64/python2.7/lib-tk/Tkinter.py", line 1745, in init self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use) _tkinter.TclError: couldn't connect to display ":10.0"
 
 solution: detach the screen and reattach then the problem is solved.
+
+
+# Still not display well
+
+reconnect
+
+echo $DISPLAY  
+localhost:11.0
+
