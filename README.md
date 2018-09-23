@@ -41,6 +41,7 @@ reconnect
 
 export DISPLAY=:localhost:11.0
 
-echo $DISPLAY
-localhost:11.0
+echo $DISPLAY  
+localhost:11.0  
 
+SOMETIMES  works good after RECONNECT  
