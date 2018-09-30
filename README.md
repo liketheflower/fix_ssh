@@ -45,3 +45,12 @@ echo $DISPLAY
 localhost:11.0  
 
 SOMETIMES  works good after RECONNECT  
+
+# ssh without password  
+ssh-keygen  
+ssh-copy-id user@host  
+## or if your server uses custom port no:  
+ssh-copy-id "user@host -p 1234" 
+
+https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login
+
